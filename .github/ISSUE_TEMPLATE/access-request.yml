@@ -1,0 +1,52 @@
+name: Access request
+description: Request access to the UPMpyTMD source code
+title: "[Access request] <your name> — <institution>"
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in UPMpyTMD. Access is granted by adding your GitHub account as a collaborator of the private repository.
+        **Do not include confidential project information or model data in this request — issues are public.**
+  - type: input
+    id: name
+    attributes:
+      label: Full name
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution / company
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options:
+        - Student
+        - Researcher / academic staff
+        - Industry engineer
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Intended use
+      description: Briefly, what you would use UPMpyTMD for (e.g. thesis, mission study, course).
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub username to invite
+      description: Defaults to the account opening this issue.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label: I will not redistribute the source code without the author's permission.
+          required: true
