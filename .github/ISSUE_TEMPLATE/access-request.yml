@@ -48,5 +48,5 @@ body:
     attributes:
       label: Terms
       options:
-        - label: I will not redistribute the source code without the author's permission.
+        - label: I will cite UPMpyTMD (see CITATION.cff) in any work that uses it.
           required: true
