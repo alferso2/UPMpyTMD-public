@@ -2,11 +2,13 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "UPMpyTMD: post-processing of ESATAN TMD thermal results"
-version: "0.1"
-date-released: "2026-08-31"
+version: "0.1.2"
+date-released: "2026-10-06"
 authors:
   - family-names: "Fernández Soler"
     given-names: "Alejandro José"
+    affiliation: "Universidad Politécnica de Madrid"
+  - name: "IDR Thermal team"
     affiliation: "Universidad Politécnica de Madrid"
 repository: "https://github.com/alferso2/UPMpyTMD-public"
 keywords:
@@ -19,3 +21,31 @@ abstract: >-
   node grouping, group attributes, conductive and radiative heat flow,
   interface temperature gradients, CSG stability, requirement verification
   and thermal report generation.
+references:
+  - type: slides
+    title: "UPMpyTMD: An Open-Source Tool for Efficient Post-Processing of ESATAN-TMS Thermal Models"
+    authors:
+      - family-names: "Fernández-Soler"
+        given-names: "Alejandro"
+        affiliation: "IDR/UPM"
+      - family-names: "Arroyo-Ruiz"
+        given-names: "Carlos"
+        affiliation: "IDR/UPM"
+      - family-names: "González-Bárcena"
+        given-names: "David"
+        affiliation: "IDR/UPM"
+      - family-names: "Torralbo"
+        given-names: "Ignacio"
+        affiliation: "IDR/UPM"
+      - family-names: "Piqueras"
+        given-names: "Javier"
+        affiliation: "IDR/UPM"
+      - family-names: "Pérez Grande"
+        given-names: "Isabel"
+        affiliation: "IDR/UPM"
+    date-published: "2026-10-07"
+    conference:
+      name: "European Space Thermal Engineering Workshop 2026"
+      location: "ESTEC"
+      city: "Noordwijk"
+      country: "NL"

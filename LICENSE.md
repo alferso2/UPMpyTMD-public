@@ -4,7 +4,8 @@ The documentation in this repository (text and images) is licensed under the
 **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 You are free to share and adapt it, provided you give appropriate credit to
-Alejandro José Fernández Soler, Universidad Politécnica de Madrid, and indicate
+Alejandro José Fernández Soler et al. (IDR Thermal team), Universidad
+Politécnica de Madrid, and indicate
 if changes were made.
 
 Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode

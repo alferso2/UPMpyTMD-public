@@ -2,7 +2,7 @@
 
 **Post-processing of ESATAN TMD thermal results — Universidad Politécnica de Madrid**
 
-![Version](https://img.shields.io/badge/version-0.1-blue) ![Python](https://img.shields.io/badge/python-3.13-blue) ![Access](https://img.shields.io/badge/source-on%20request-lightgrey)
+![Version](https://img.shields.io/badge/version-0.1.2-blue) ![Python](https://img.shields.io/badge/python-3.13-blue) ![Access](https://img.shields.io/badge/source-on%20request-lightgrey)
 
 UPMpyTMD is a local web application that turns ESATAN TMD result files into the tables, plots and checks a spacecraft thermal analysis needs — without writing post-processing scripts. Load one or more cases (e.g. hot and cold), define node groups in an Excel workbook, and explore temperatures, heat loads, conductive and radiative heat flow, interface gradients, numerical stability and requirement compliance; then assemble the results into a thermal analysis report.
 
@@ -29,15 +29,19 @@ Everything runs on your own machine: model data never leaves it.
 
 The source code is hosted in a private repository and access is granted on request — typically to research groups, students and industrial partners working on spacecraft thermal analysis.
 
-To request access, **[open an access request](https://github.com/alferso2/UPMpyTMD-public/issues/new?template=access-request.yml)** with your name, institution and intended use. Access is granted by adding your GitHub account as a collaborator of the private repository.
+To request access, **[open an access request](https://github.com/alferso2/UPMpyTMD-public/issues/new?template=access-request.yml)** with your name, institution and intended use. Access is granted by adding your GitHub account, with read access, to the private distribution repository `IDR-thermal/UPMpyTMD`.
 
 ## Citation
 
 If you use UPMpyTMD in your work, please cite it — see [CITATION.cff](CITATION.cff) or the *Cite this repository* button on this page.
 
+UPMpyTMD was presented at the European Space Thermal Engineering Workshop 2026 (ESTEC, Noordwijk, 7 October 2026):
+
+> A. Fernández-Soler, C. Arroyo-Ruiz, D. González-Bárcena, I. Torralbo, J. Piqueras and I. Pérez Grande, *"UPMpyTMD: An Open-Source Tool for Efficient Post-Processing of ESATAN-TMS Thermal Models"*, European Space Thermal Engineering Workshop 2026, ESTEC, Noordwijk, The Netherlands, 7 October 2026.
+
 ## Author
 
-Alejandro José Fernández Soler — Universidad Politécnica de Madrid (UPM)
+Alejandro José Fernández Soler et al. (IDR Thermal team) — Universidad Politécnica de Madrid (UPM)
 
 ## Notices
 

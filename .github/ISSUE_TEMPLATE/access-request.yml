@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in UPMpyTMD. Access is granted by adding your GitHub account as a collaborator of the private repository.
+        Thank you for your interest in UPMpyTMD. Access is granted by adding your GitHub account, with read access, to the private distribution repository IDR-thermal/UPMpyTMD.
         **Do not include confidential project information or model data in this request — issues are public.**
   - type: input
     id: name
